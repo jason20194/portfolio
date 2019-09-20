@@ -1,0 +1,460 @@
+
+
+*{
+   padding: 0;
+   margin:0; 
+}
+body{
+    background-image: url('./Closeup_of_blue_ice_background_Wall_Mural_Wallpaper_a_1080x.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+} 
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container h1 {
+    font-size: 35px;
+    /* width: 500px; */
+    font-family: 'Press Start 2P', cursive;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    text-align: center;
+    color: midnightblue;
+}
+
+.contentcontainer .intro {
+    font-size: 20px;
+    /* width: 500px; */
+    font-family: 'Space Mono', monospace;
+    text-align: center;    
+}
+
+.container .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+   
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100vw;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+
+}
+
+.container h3 {
+    margin: 0;
+    position: relative;
+    top: 0px;
+    left: 40px;
+    font-family: Arial;
+    flex-wrap: wrap;
+    float: left;
+    font-family: 'Space Mono', monospace;
+    color: midnightblue;
+}
+
+.navbar li {
+    text-align: center;
+    display: inline;
+    padding:0 20px;
+    list-style-type: none;
+    align-self: flex-end;
+    font-family: 'Space Mono', monospace;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: midnightblue;
+}
+   
+ul li a:hover, ul li a:focus {
+    color: white;
+}
+
+.wrapper {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentcontainer {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 70vh;
+}
+
+.content .img {
+    margin-top: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+.contact-form {
+    height: 100%;
+    width: 50%;
+    margin: 0px auto;
+}
+
+.contact-form form {
+    height: 100%;
+    width: 100%;
+}
+
+#contacttext {
+    font-family: 'Space Mono', monospace;
+}
+
+.contact-title {
+    margin-top: 50px;
+    color:black;
+    text-transform: uppercase;    
+}
+
+.contact-title h1 {
+    font-size: 32px;
+    line-height: 0px;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+}
+
+.contact-title h2 {
+    font-size: 16px;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    color: midnightblue;
+}
+
+.contact-title h2:hover {
+    color: white;
+}
+
+form {
+    margin-top: 50px;    
+}
+
+.form-control {
+    width: 100%;
+    background: white;
+    border: none;
+    outline: none;
+    border-bottom: none;
+    font-size: 18px;
+    margin-bottom: 16px;
+    font-family: 'Space Mono', monospace;
+    color: midnightblue;
+}
+
+textarea {
+    resize: none;
+    height: 250px;
+}
+
+.contact-contentcontainer {
+    /* width: 50vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 70vh;
+}
+
+.aboutme-contentcontainer {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 70vh;
+}
+
+.aboutme-h1 {
+    text-align: center;
+    font-size: 35px;
+    color: midnightblue;
+}
+
+.aboutme-info {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#aboutme {
+    font-family: 'Space Mono', monospace;
+}
+
+.aboutme-p {
+    width: 500px;
+    margin-left: 20px;
+    color: midnightblue;
+    font-size: 25px;
+    font-family: 'Space Mono', monospace;
+}
+
+.aboutme-info img {
+    border-radius: 50%;
+} 
+
+#introfont {
+    font-size: 20px;
+    color: midnightblue;
+    text-align: center; 
+
+}
+
+.resume {
+    text-decoration: none;
+    color: midnightblue;
+    font-size: 25px;
+}
+
+#experiencefont {
+    font-family: 'Space Mono', monospace;
+}
+
+.experience-container {   
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 70vh;
+}
+
+.experience-container h1{
+    color: midnightblue;
+}
+
+.experience-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.experience-icon img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 50px;    
+}
+
+.experience-info p {
+    width: 60vw;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    color: midnightblue;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+#projecttext {
+    font-family: 'Space Mono', monospace;
+}
+
+.project-container {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 70vh;
+}
+
+.project-container-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.project-icon img {
+    height: 300px;
+    width: 250px;
+    padding: 50px;
+}
+
+.project-icon .project1 img:hover {
+    height: 320px;
+    width: 270px;
+}
+
+.project-icon .project3 img:hover {
+    height: 320px;
+    width: 270px;
+}
+
+.project-icon .project2 img:hover {
+    height: 320px;
+    width: 270px;
+}
+
+.project-icon {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Space Mono', monospace;
+    color: midnightblue;
+    margin-left: 50px;
+}
+
+
+.project1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#blogtext {
+    font-family: 'Space Mono', monospace;
+}
+
+.blogcontainer {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 70px;
+    height: 70vh;
+}
+
+.blogcontentcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-y: scroll; 
+}
+
+.blog1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.blog1 p {
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    color: midnightblue;
+    width: 50vw;
+}
+
+.blog1 h3 {
+    text-align: left;
+    margin-right: 80px;
+}
+
+.blog2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.blog2 p {
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    color: midnightblue;
+    width: 50vw;
+}
+
+.blog2 h3 {
+    text-align: left;
+    margin-right: 80px;
+}
+
+.blog3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.blog3 p {
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    color: midnightblue;
+    width: 50vw;
+}
+
+.blog3 h3 {
+    text-align: left;
+    margin-right: 80px;
+}
+
+.blog4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.blog4 p {
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    color: midnightblue;
+    width: 50vw;
+}
+
+.blog4 h3 {
+    text-align: left;
+    margin-right: 80px;
+}
+
+.blogcontentcontainer img {
+    height: 200px;
+    width: 400px;
+    padding: 20px;
+}
+
