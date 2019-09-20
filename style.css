@@ -458,3 +458,20 @@ textarea {
     padding: 20px;
 }
 
+/* index */
+@media only screen and (max-width: 375px) {
+    .aboutme-p {
+        width: 270px;
+        margin-left: 0px;
+        margin-right: 22px;
+    }
+
+    .wrapper {
+        height: 65vh;
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+
+   }
