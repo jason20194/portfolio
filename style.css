@@ -458,12 +458,12 @@ textarea {
     padding: 20px;
 }
 
-/* index */
 @media only screen and (max-width: 375px) {
     .aboutme-p {
         width: 270px;
-        margin-left: 0px;
+        margin-left: 20px;
         margin-right: 22px;
+        font-size: 15px;
     }
 
     .wrapper {
@@ -471,7 +471,91 @@ textarea {
     }
 
     .container h1 {
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    .aboutme-contentcontainer {
+        margin-top: 5px;
+    }
+
+    .aboutme-info img {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-top: 100px;
+        margin-left: 22px;
+    }
+
+    .experience-container {
+        margin-top: -16px;
+        margin-left: 0px;
+    }
+
+    .experience-icon img {
+        height: 40px;
+        width: 40px;
+        margin-left: 45px;
+    }
+
+    .experience-info p {
+        font-size: 13px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+   .project-icon img {
+       height: 76px;
+       width: 70px;
+       padding: 25px;
+   }
+
+   .project-icon {
+       margin-left: 12px;
+       text-align: center;
+   }
+
+   .container h3 {
+       left: 0px;
+       text-align: center;
+   }
+
+   .project-container {
+       margin-top: 60px;
+       width: 82vw;
+   }
+
+   .blogcontainer {
+       margin-left: 20px;
+       margin-top: -38px;
+       height: 86vh;
+   }
+
+   .blog1 p {
+       width: 81vw;
+       font-size: 12px;
+   }
+
+   .blog2 p {
+    width: 81vw;
+    font-size: 12px;
+    }
+
+    .blog3 p {
+        width: 81vw;
+        font-size: 12px;
+    }
+
+    .blog4 p {
+        width: 81vw;
+        font-size: 12px;
+    }
+
+    .contact-contentcontainer {
+        margin-top: 18px;    
+    }
+
+    .contact-form {
+        width: 70%
     }
 
    }
