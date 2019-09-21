@@ -5,7 +5,7 @@
    margin:0; 
 }
 body{
-    background-image: url('./Closeup_of_blue_ice_background_Wall_Mural_Wallpaper_a_1080x.jpg'); 
+    background-image: url('./pink.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -19,16 +19,16 @@ body{
 
 .container h1 {
     font-size: 35px;
-    /* font-family: 'Press Start 2P', cursive; */
+    font-family: 'Press Start 2P', cursive;
     flex-wrap: wrap;
     margin-bottom: 30px;
     text-align: center;
-    color: red;
+    color: pink;
 }
 
 .contentcontainer .intro {
     font-size: 20px;
-    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Space Mono', monospace;
     text-align: center;    
 }
 
@@ -57,8 +57,8 @@ body{
     font-family: Arial;
     flex-wrap: wrap;
     float: left;
-    /* font-family: 'Space Mono', monospace; */
-    color: red
+    font-family: 'Space Mono', monospace;
+    color: pink;
 }
 
 .navbar li {
@@ -67,16 +67,16 @@ body{
     padding:0 20px;
     list-style-type: none;
     align-self: flex-end;
-    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Space Mono', monospace;
 }
 
 .navbar li a {
     text-decoration: none;
-    color: red;
+    color: pink;
 }
    
 ul li a:hover, ul li a:focus {
-    color: black;
+    color: pink;
 }
 
 .wrapper {
@@ -122,31 +122,31 @@ ul li a:hover, ul li a:focus {
 }
 
 #contacttext {
-    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Space Mono', monospace;
 }
 
 .contact-title {
     margin-top: 50px;
-    color: white;
+    color: pink;
     text-transform: uppercase;    
 }
 
 .contact-title h1 {
     font-size: 32px;
     line-height: 0px;
-    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Space Mono', monospace;
     text-align: center;
 }
 
 .contact-title h2 {
     font-size: 16px;
-    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Space Mono', monospace;
     text-align: center;
-    color: red;
+    color: pink;
 }
 
 .contact-title h2:hover {
-    color: black;
+    color: pink;
 }
 
 form {
@@ -161,8 +161,8 @@ form {
     border-bottom: none;
     font-size: 18px;
     margin-bottom: 16px;
-    /* font-family: 'Space Mono', monospace; */
-    color: red;
+    font-family: 'Space Mono', monospace;
+    color: pink;
 }
 
 textarea {
@@ -194,7 +194,7 @@ textarea {
 .aboutme-h1 {
     text-align: center;
     font-size: 35px;
-    color: red;
+    color: pink;
 }
 
 .aboutme-info {
@@ -204,15 +204,15 @@ textarea {
 }
 
 #aboutme {
-    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Space Mono', monospace;
 }
 
 .aboutme-p {
     width: 500px;
     margin-left: 20px;
-    color: red;
+    color: pink;
     font-size: 25px;
-    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Space Mono', monospace;
 }
 
 .aboutme-info img {
@@ -221,18 +221,18 @@ textarea {
 
 #introfont {
     font-size: 20px;
-    color: red;
+    color: pink;
     text-align: center; 
 }
 
 .resume {
     text-decoration: none;
-    color: red;
+    color: pink;
     font-size: 25px;
 }
 
 #experiencefont {
-    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Space Mono', monospace;
 }
 
 .experience-container {   
@@ -247,7 +247,7 @@ textarea {
 }
 
 .experience-container h1{
-    color: red;
+    color: pink;
 }
 
 .experience-info {
@@ -267,15 +267,15 @@ textarea {
 
 .experience-info p {
     width: 60vw;
-    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Space Mono', monospace;
     font-size: 20px;
-    color: red;
+    color: pink;
     justify-content: center;
     margin-left: 30px;
 }
 
 #projecttext {
-    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Space Mono', monospace;
 }
 
 .project-container {
@@ -320,8 +320,8 @@ textarea {
 .project-icon {
     display: flex;
     justify-content: space-around;
-    /* font-family: 'Space Mono', monospace; */
-    color: red;
+    font-family: 'Space Mono', monospace;
+    color: pink;
     margin-left: 50px;
 }
 
@@ -348,7 +348,7 @@ textarea {
 }
 
 #blogtext {
-    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Space Mono', monospace;
 }
 
 .blogcontainer {
@@ -374,13 +374,13 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid white;
 }
 
 .blog1 p {
-    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Space Mono', monospace;
     font-size: 15px;
-    color: red;
+    color: pink;
     width: 50vw;
 }
 
@@ -394,13 +394,13 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid white;
 }
 
 .blog2 p {
-    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Space Mono', monospace;
     font-size: 15px;
-    color: red;
+    color: pink;
     width: 50vw;
 }
 
@@ -418,9 +418,9 @@ textarea {
 }
 
 .blog3 p {
-    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Space Mono', monospace;
     font-size: 15px;
-    color: red;
+    color: pink;
     width: 50vw;
 }
 
@@ -434,13 +434,13 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid white;
 }
 
 .blog4 p {
-    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Space Mono', monospace;
     font-size: 15px;
-    color: red;
+    color: pink;
     width: 50vw;
 }
 
