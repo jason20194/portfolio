@@ -19,16 +19,16 @@ body{
 
 .container h1 {
     font-size: 35px;
-    font-family: 'Press Start 2P', cursive;
+    /* font-family: 'Press Start 2P', cursive; */
     flex-wrap: wrap;
     margin-bottom: 30px;
     text-align: center;
-    color: midnightblue;
+    color: red;
 }
 
 .contentcontainer .intro {
     font-size: 20px;
-    font-family: 'Space Mono', monospace;
+    /* font-family: 'Space Mono', monospace; */
     text-align: center;    
 }
 
@@ -57,8 +57,8 @@ body{
     font-family: Arial;
     flex-wrap: wrap;
     float: left;
-    font-family: 'Space Mono', monospace;
-    color: midnightblue;
+    /* font-family: 'Space Mono', monospace; */
+    color: red
 }
 
 .navbar li {
@@ -67,16 +67,16 @@ body{
     padding:0 20px;
     list-style-type: none;
     align-self: flex-end;
-    font-family: 'Space Mono', monospace;
+    /* font-family: 'Space Mono', monospace; */
 }
 
 .navbar li a {
     text-decoration: none;
-    color: midnightblue;
+    color: red;
 }
    
 ul li a:hover, ul li a:focus {
-    color: white;
+    color: black;
 }
 
 .wrapper {
@@ -122,31 +122,31 @@ ul li a:hover, ul li a:focus {
 }
 
 #contacttext {
-    font-family: 'Space Mono', monospace;
+    /* font-family: 'Space Mono', monospace; */
 }
 
 .contact-title {
     margin-top: 50px;
-    color:black;
+    color: white;
     text-transform: uppercase;    
 }
 
 .contact-title h1 {
     font-size: 32px;
     line-height: 0px;
-    font-family: 'Space Mono', monospace;
+    /* font-family: 'Space Mono', monospace; */
     text-align: center;
 }
 
 .contact-title h2 {
     font-size: 16px;
-    font-family: 'Space Mono', monospace;
+    /* font-family: 'Space Mono', monospace; */
     text-align: center;
-    color: midnightblue;
+    color: red;
 }
 
 .contact-title h2:hover {
-    color: white;
+    color: black;
 }
 
 form {
@@ -161,8 +161,8 @@ form {
     border-bottom: none;
     font-size: 18px;
     margin-bottom: 16px;
-    font-family: 'Space Mono', monospace;
-    color: midnightblue;
+    /* font-family: 'Space Mono', monospace; */
+    color: red;
 }
 
 textarea {
@@ -194,7 +194,7 @@ textarea {
 .aboutme-h1 {
     text-align: center;
     font-size: 35px;
-    color: midnightblue;
+    color: red;
 }
 
 .aboutme-info {
@@ -204,15 +204,15 @@ textarea {
 }
 
 #aboutme {
-    font-family: 'Space Mono', monospace;
+    /* font-family: 'Space Mono', monospace; */
 }
 
 .aboutme-p {
     width: 500px;
     margin-left: 20px;
-    color: midnightblue;
+    color: red;
     font-size: 25px;
-    font-family: 'Space Mono', monospace;
+    /* font-family: 'Space Mono', monospace; */
 }
 
 .aboutme-info img {
@@ -221,19 +221,18 @@ textarea {
 
 #introfont {
     font-size: 20px;
-    color: midnightblue;
+    color: red;
     text-align: center; 
-
 }
 
 .resume {
     text-decoration: none;
-    color: midnightblue;
+    color: red;
     font-size: 25px;
 }
 
 #experiencefont {
-    font-family: 'Space Mono', monospace;
+    /* font-family: 'Space Mono', monospace; */
 }
 
 .experience-container {   
@@ -248,7 +247,7 @@ textarea {
 }
 
 .experience-container h1{
-    color: midnightblue;
+    color: red;
 }
 
 .experience-info {
@@ -268,15 +267,15 @@ textarea {
 
 .experience-info p {
     width: 60vw;
-    font-family: 'Space Mono', monospace;
+    /* font-family: 'Space Mono', monospace; */
     font-size: 20px;
-    color: midnightblue;
+    color: red;
     justify-content: center;
     margin-left: 30px;
 }
 
 #projecttext {
-    font-family: 'Space Mono', monospace;
+    /* font-family: 'Space Mono', monospace; */
 }
 
 .project-container {
@@ -321,8 +320,8 @@ textarea {
 .project-icon {
     display: flex;
     justify-content: space-around;
-    font-family: 'Space Mono', monospace;
-    color: midnightblue;
+    /* font-family: 'Space Mono', monospace; */
+    color: red;
     margin-left: 50px;
 }
 
@@ -349,7 +348,7 @@ textarea {
 }
 
 #blogtext {
-    font-family: 'Space Mono', monospace;
+    /* font-family: 'Space Mono', monospace; */
 }
 
 .blogcontainer {
@@ -375,13 +374,13 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
+    border: 2px solid black;
 }
 
 .blog1 p {
-    font-family: 'Space Mono', monospace;
+    /* font-family: 'Space Mono', monospace; */
     font-size: 15px;
-    color: midnightblue;
+    color: red;
     width: 50vw;
 }
 
@@ -395,13 +394,13 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
+    border: 2px solid black;
 }
 
 .blog2 p {
-    font-family: 'Space Mono', monospace;
+    /* font-family: 'Space Mono', monospace; */
     font-size: 15px;
-    color: midnightblue;
+    color: red;
     width: 50vw;
 }
 
@@ -415,13 +414,13 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
+    border: 2px solid black;
 }
 
 .blog3 p {
-    font-family: 'Space Mono', monospace;
+    /* font-family: 'Space Mono', monospace; */
     font-size: 15px;
-    color: midnightblue;
+    color: red;
     width: 50vw;
 }
 
@@ -435,13 +434,13 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
+    border: 2px solid black;
 }
 
 .blog4 p {
-    font-family: 'Space Mono', monospace;
+    /* font-family: 'Space Mono', monospace; */
     font-size: 15px;
-    color: midnightblue;
+    color: red;
     width: 50vw;
 }
 
