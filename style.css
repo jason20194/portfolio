@@ -19,7 +19,6 @@ body{
 
 .container h1 {
     font-size: 35px;
-    /* width: 500px; */
     font-family: 'Press Start 2P', cursive;
     flex-wrap: wrap;
     margin-bottom: 30px;
@@ -29,7 +28,6 @@ body{
 
 .contentcontainer .intro {
     font-size: 20px;
-    /* width: 500px; */
     font-family: 'Space Mono', monospace;
     text-align: center;    
 }
@@ -458,104 +456,175 @@ textarea {
     padding: 20px;
 }
 
+/* media query for an iphone X */
 @media only screen and (max-width: 375px) {
-    .aboutme-p {
-        width: 270px;
-        margin-left: 20px;
-        margin-right: 22px;
-        font-size: 15px;
-    }
+.aboutme-p {
+    width: 270px;
+    margin-left: 20px;
+    margin-right: 22px;
+    font-size: 15px;
+}
 
-    .wrapper {
-        height: 65vh;
-    }
+.wrapper {
+    height: 65vh;
+}
 
-    .container h1 {
-        font-size: 25px;
-    }
+.container h1 {
+    font-size: 25px;
+}
 
-    .aboutme-contentcontainer {
-        margin-top: 5px;
-    }
+.aboutme-contentcontainer {
+    margin-top: 5px;
+}
 
-    .aboutme-info img {
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-        margin-top: 100px;
-        margin-left: 22px;
-    }
+.aboutme-info img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 22px;
+}
 
-    .experience-container {
-        margin-top: -16px;
-        margin-left: 0px;
-    }
+.experience-container {
+    margin-top: -16px;
+    margin-left: 0px;
+}
 
-    .experience-icon img {
-        height: 40px;
-        width: 40px;
-        margin-left: 45px;
-    }
+.experience-icon img {
+    height: 40px;
+    width: 40px;
+    margin-left: 45px;
+}
 
-    .experience-info p {
-        font-size: 13px;
-        margin-left: 50px;
-        margin-top: 10px;
-    }
+.experience-info p {
+    font-size: 13px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
 
-   .project-icon img {
-       height: 76px;
-       width: 70px;
-       padding: 25px;
-   }
+.project-icon img {
+    height: 76px;
+    width: 70px;
+    padding: 25px;
+}
 
-   .project-icon {
-       margin-left: 12px;
-       text-align: center;
-   }
+.project-icon {
+    margin-left: 12px;
+    text-align: center;
+}
 
-   .container h3 {
-       left: 0px;
-       text-align: center;
-   }
+.container h3 {
+    left: 0px;
+    text-align: center;
+}
 
-   .project-container {
-       margin-top: 60px;
-       width: 82vw;
-   }
+.project-container {
+    margin-top: 60px;
+    width: 82vw;
+}
 
-   .blogcontainer {
-       margin-left: 20px;
-       margin-top: -38px;
-       height: 86vh;
-   }
+.blogcontainer {
+    margin-left: 20px;
+    margin-top: -38px;
+    height: 86vh;
+}
 
-   .blog1 p {
-       width: 81vw;
-       font-size: 12px;
-   }
-
-   .blog2 p {
+.blog1 p {
     width: 81vw;
     font-size: 12px;
-    }
+}
 
-    .blog3 p {
-        width: 81vw;
-        font-size: 12px;
-    }
+.blog2 p {
+    width: 81vw;
+    font-size: 12px;
+}
 
-    .blog4 p {
-        width: 81vw;
-        font-size: 12px;
-    }
+.blog3 p {
+    width: 81vw;
+    font-size: 12px;
+}
 
-    .contact-contentcontainer {
-        margin-top: 18px;    
-    }
+.blog4 p {
+    width: 81vw;
+    font-size: 12px;
+}
 
-    .contact-form {
-        width: 70%
-    }
+.contact-contentcontainer {
+    margin-top: 18px;    
+}
 
-   }
+.contact-form {
+    width: 70%
+}
+
+}
+
+/* media query for shrinking screen */
+   
+@media only screen and (max-width: 1200px) {
+
+.aboutme-info img {
+    height: 300px;
+    width: 300px;
+}
+
+.aboutme-p {
+    font-size: 20px;
+}
+
+}
+
+/* media query for shrinking screen */
+
+@media only screen and (max-width: 828px) {
+
+.experience-icon img {
+    height: 50px;
+    width: 50px;
+}
+
+.experience-info p {
+    font-size: 19px;
+}
+
+.aboutme-p {
+    font-size: 19px;
+}
+
+.blogcontainer {
+    margin-left: 30px;
+}
+
+.project-icon img {
+    height: 150px;
+    width: 125px;
+    padding: 40px;
+}
+
+}
+
+/* media query for shrinking max size of computer screen */
+
+@media only screen and (max-width: 490px) {
+
+.aboutme-info img {
+    height: 250px;
+    width: 250px;
+}
+
+.aboutme-p {
+    font-size: 15px;
+}
+
+.experience-info p {
+    font-size: 15px;
+    width: 70vw;
+    margin-left: 50px;
+}
+.project-icon img {
+    height: 100px;
+    width: 80px;
+    padding: 40px;
+}
+
+}
