@@ -20,6 +20,9 @@ The main target audience of this project is potential employers who are looking 
 
 ## SiteMap
 
+### Jason Liu Developer Portfolio Sitemap:
+![Sitemap](./sitemap.png)
+
 ## Screenshots
 
 ### Homepage
