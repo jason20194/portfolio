@@ -23,16 +23,22 @@ The main target audience of this project is potential employers who are looking 
 ## Screenshots
 
 ### Homepage
+![Homepage](./intro.png)
 
 ### About Me Page
+![About Me](./aboutme.png)
 
 ### Experience/Skills Page
+![Experience/Skills](./skills.png)
 
 ### Projects Page
+![Projects](./projects.png)
 
 ### Blog Page
+![Blog](./blog.png)
 
 ### Contact Page
+![Contact](./contact.png)
 
 ## Features and Functionality
 
@@ -42,10 +48,12 @@ Here are a list of features and functionality which my developer portfolio site 
 - When the screen shrinks, so will the text and images for users who have smaller screens to also be able to view the content without it breaking.
 - Added effects of the pages. The introduction text flashes.
 - Hover effects also added. For navigation bar once you hover over the page u selected will turn from blue to white, making it easier for users to know which page they will be going to.
+- About Me page has a resume link which employers can click to download my resume.
 - Experiences skills page will have icons of experience for that icon (indicates programming languages).
 - Project page has images of screenshots of projects that the user can click into to view.
 - Blog page has a scroll down bar for reading all blogs.
-- Contact page has inbuilt features where if the user doesnt enter anything, it will prompt for the user to input again and will not work until it is filled out. Also if the users email address contains no "@" he or she will not be able to continue.
+- Contact page has inbuilt features where if the user doesnt enter anything, it will prompt for the user to input again and will not work until it is filled out. Also if the users email address contains no "@" symbol he or she will not be able to continue.
+- Footer has two icons for which employers can click to view my Github profile and LinkedIn profile.
 
 ## Tech Stack
 - HTML
